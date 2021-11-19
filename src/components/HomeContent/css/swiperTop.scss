@@ -1,0 +1,88 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.SwiperTop {
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    .ant-carousel {
+        height: 100%;
+        .slick-slider.slick-initialized {
+            height: 100%;
+        }
+        .slick-list {
+            height: 100%;
+            .slick-track {
+                height: 100%;
+            }
+        }
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-slide img {
+        display: block;
+        object-fit: cover;
+        width: 100%;
+    }
+    .mask {
+        /* display: none; */
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        background: rgba(0, 0, 0, .3);
+    }
+}
+
+.hero-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    z-index: 3;
+    h1 {
+        margin-bottom: 8px;
+        font-size: 46px;
+        color: #fff;
+        font-weight: lighter;
+    }
+    h2 {
+        font-size: 24px;
+        color: #fff;
+        font-weight: lighter;
+    }
+}

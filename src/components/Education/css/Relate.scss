@@ -1,0 +1,50 @@
+.relate_coinatr {
+  border-radius: 15px;
+  h2 {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+  }
+  ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    li {
+      height: 135px;
+      margin-bottom: 10px;
+      width: 180px;
+      position: relative;
+      overflow: hidden;
+      img,
+      h2 {
+        border-radius: 10px;
+      }
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+      .relate_title {
+        line-height: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+        position: absolute;
+        font-size: 18px;
+        top: 100%;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        background-color: rgba(100, 100, 100, 0.7);
+        transition: all 0.3s;
+      }
+    }
+    li:hover .relate_title {
+      top: 0%;
+    }
+  }
+}

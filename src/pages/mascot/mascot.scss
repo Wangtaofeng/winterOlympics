@@ -1,0 +1,18 @@
+.cardContainer {
+  width: 50%;
+  min-width: 800px;
+  margin: 30px auto;
+  max-width: 2000px;
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid #888;
+  box-shadow: 1px 1px 10px #0755a7;
+  h1 {
+    font-weight: bolder;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+  }
+}

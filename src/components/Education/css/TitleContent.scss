@@ -1,0 +1,25 @@
+.TitleContent {
+  h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .videoContainer {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mascot {
+    position: fixed;
+    bottom: 0;
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+}
